@@ -1,0 +1,13 @@
+<div class="parent">
+    <form class="example-form" [formGroup]="checkoutForm" (ngSubmit)="agregarInforme(checkoutForm.value)">
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email">
+        </mat-form-field>
+        <mat-form-field class="example-full-width" appearance="fill">
+            <mat-label>Contraseña</mat-label>
+            <input matInput formControlName="password">
+        </mat-form-field>
+        <button mat-raised-button color="warn" type="submit">Guardar</button>
+    </form>
+</div>

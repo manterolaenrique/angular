@@ -1,0 +1,18 @@
+<mat-card class="example-card">
+    <mat-card-header>
+        <div mat-card-avatar class="example-header-image"></div>
+        <mat-card-title>{{data.title}}</mat-card-title>
+        <mat-card-subtitle>{{data.category}}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="{{data.image}}" alt="Photo of a Shiba Inu">
+    <mat-card-content>
+        <p>{{data.description}}</p>
+    </mat-card-content>
+
+    <mat-card-title-group>
+        <mat-card-content>{{data.price | currency}}</mat-card-content>
+        <mat-card-content>{{data.rating.count}}</mat-card-content>
+        <mat-card-content>{{data.rating.rate}}</mat-card-content>
+    </mat-card-title-group>
+
+</mat-card>

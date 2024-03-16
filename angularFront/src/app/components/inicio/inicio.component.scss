@@ -1,0 +1,36 @@
+.container {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 95%;
+
+    table {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .example-spacer {
+        flex: 1 1 auto;
+    }
+
+    .interior {
+        margin: 10px 0 10px 0;
+    }
+
+    .example-form {
+        min-width: 150px;
+        max-width: 500px;
+        width: 100%;
+    }
+
+    .example-full-width {
+        width: 100%;
+    }
+
+    .parent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
